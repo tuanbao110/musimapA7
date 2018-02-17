@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+/*.home-screen {
+  width: 100%;
+  min-width: 1440px;
+  height: 100%;
+  min-height: 1024px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+}
+*/
+.header {
+  top                 : 2px;
+  height              : 59px;
+  width               : 100%;
+}
+.header .menu-icon {
+  top                 : 19px;
+  height              : 26px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.header .menu-icon .line3 {
+  top                 : 9px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.header .menu-icon .line2 {
+  top                 : 20px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.header .menu-icon .line1 {
+  top                 : 0px;
+  height              : 6px;
+  width               : 45px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.header .search-icon {
+  top                 : 0px;
+  height              : 59px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1371px;
+}
+.header .search-icon .handle2 {
+  top                 : 25px;
+  height              : 34px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.header .search-icon .handle1 {
+  top                 : 27px;
+  height              : 32px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.header .search-icon .magnifying-glass {
+  top                 : 0px;
+  height              : 44px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.map {
+  top                 : 65px;
+  height              : 942px;
+  width               : 1492px;
+  margin              : 0;
+  left                : -25px;
+}
+#container {
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  border: 2px solid black;
+}
+#musimap {
+  display: block;
+  margin: auto;
+  width: 400%;
+}
+.map .artist-clickable .artist-name {
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position: absolute;
+  margin              : center;
+  left                : 133px;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 35.0px;
+  color               : rgba(71, 71, 71, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}

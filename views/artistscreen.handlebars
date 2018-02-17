@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MusiMap Artist</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/bootstrap.css" rel="stylesheet" />
+        <link href="../css/bootstrap-theme.css" rel="stylesheet" />
+        <link href="../css/artistScreen.css" rel="stylesheet"/>
+    </head>
+    <body style="margin: 0;">
+        <div class="artist-screen">
+            <div>
+                <div>
+                    <div><a href="../menu"><h4>Menu</h4></a></div>
+                    <div><a href="../searchpage"><h4>Search Page</h4></a></div>
+                </div>
+                <div>
+                    <img src="{{imageURL}}" alt="Artist Image" class="img-responsive">
+                    <div class="artist-name">
+                        <h4>{{name}}</h4>
+                    </div>
+                </div>
+                <div>
+                    <div class="bio">
+                        <p>{{genre}}</p>
+                        <p>{{description}}</p>
+                    </div>
+                </div>
+                <div>
+                    <div><a href="../add/{{name}}"><h4>Add to Library</h4></a></div>
+                    <div><a href="../likeThis/{{name}}"><h4>More Like This</h4></a></div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/jquery-1.11.0.js"></script>
+        <script src="../js/bootstrap.js"></script>
+    </body>
+</html>
+

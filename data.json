@@ -1,0 +1,40 @@
+{
+	"artists": [
+		{
+			"name": "Black Sabbath",
+			"genre": "Heavy Metal",
+			"description": "One of the first heavy metal bands, and one of the best.",
+			"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sabs.jpg/1200px-Sabs.jpg"			
+		},
+		{
+			"name": "Iron Maiden",
+			"genre": "Heavy Metal",
+			"description": "A shining example of why heavy metal is great.",
+			"imageURL": "https://img.discogs.com/HM5gybDrzcwiltUpKA2H_KufjFQ=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1164331-1197405059.jpeg.jpg"			
+		},
+		{
+			"name": "Judas Priest",
+			"genre": "Heavy Metal",
+			"description": "They're called the 'Metal Gods' for a reason.",
+			"imageURL": "https://images-na.ssl-images-amazon.com/images/I/B10R1yhJ3rS._SL1000_.png"			
+		},
+		{
+			"name": "Megadeth",
+			"genre": "Thrash Metal",
+			"description": "These guys put out some excellent music.",
+			"imageURL": "https://www.metal-archives.com/images/1/3/8/138_photo.jpg?4147"		
+		},
+		{
+			"name": "Death",
+			"genre": "Death Metal",
+			"description": "They pioneered an entire genre of metal - enough said.",
+			"imageURL": "http://markinternational.info/data/out/699/225137212-death-band-wallpaper.jpg"
+		},
+		{
+			"name": "Emperor",
+			"genre": "Black Metal",
+			"description": "Easily one of the best black metal bands of all time.",
+			"imageURL": "https://www.metal-archives.com/images/3/0/30_photo.jpg?2652"
+		}
+	]
+}
