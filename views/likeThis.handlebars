@@ -27,11 +27,11 @@
         <div>
             <div>
                 <h1>MusiMap</h1>
-                <h2>More Like This: </h2>
+                <h2>More Like: <a href="../artistscreen/{{fromName}}">{{fromName}}</a></h2>
             </div>
             
             <ul>
-                {{#each artists}}
+                {{#each likeData.artists}}
                 <li>
                     <a href="../artistscreen/{{name}}"><h4>{{name}}</h4></a>
                 </li>
