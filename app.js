@@ -21,6 +21,7 @@ var searchpage = require('./routes/searchpage');
 var settings = require('./routes/settings');
 var social = require('./routes/social');
 var login = require('./routes/login');
+var map = require('./routes/map');
 // Example route
 // var user = require('./routes/user');
 
@@ -61,6 +62,7 @@ app.get('/searchpage', searchpage.view);
 app.get('/settings', settings.view);
 app.get('/social', social.view);
 app.get('/add/:name', library.addArtist);
+app.get('/map', map.view);
 
 // Example route
 // app.get('/users', user.list);

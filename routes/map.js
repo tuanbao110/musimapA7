@@ -1,8 +1,8 @@
 
 /*
- * GET login page.
+ * GET map page.
  */
 
 exports.view = function(req, res){
-  res.render('login');
+  res.render('map');
 };

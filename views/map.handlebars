@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MusiMap Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <link href="./css/map.css" rel="stylesheet">
+        <script src='js/cytoscape.js'></script>
+    </head>
+    <body>
+        <div><h2>Placeholder Map</h2></div>
+        <div id="cy"></div>
+<script>
+      var cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: [
+          { data: { id: 'a' } },
+          { data: { id: 'b' } },
+          {
+            data: {
+              id: 'ab',
+              source: 'a',
+              target: 'b'
+            }
+          }]
+      });
+    </script>
+    </body>
+</html>
