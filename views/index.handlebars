@@ -2,34 +2,33 @@
 <html>
     <head>
         <title>MusiMap Home</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap-theme.css" rel="stylesheet">
         <link href="./css/homeScreen.css" rel="stylesheet">
+
+        <!-- Icon Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
     <body>
-        <div>
-            <div class="header">
-                <div class="menu-icon">
-                    <a href="menu">
-                        <img src="./img/home screenline 3.png" class="line3"/>
-                        <img src="./img/home screenline 3.png" class="line2"/>
-                        <img src="./img/home screenline 3.png" class="line1"/>
-                    </a>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navmenu">
+                    <a href="home">Home</a>
+                    <a href="help">Help</a>
+
+                <div class="searchbar">
+                    <input type="text" name="search" placeholder="Search...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 </div>
-                <div class="search-icon">
-                    <a href="searchpage">
-                        <img src="./img/home screenhandle 2.png" class="handle2"/>
-                        <img src="./img/home screenhandle 1.png" class="handle1"/>
-                        <img src="./img/searchmagnifying glass.png" class="magnifying-glass"/>
-                    </a>
-                </div>
-            </div>
             <div>
                 <h3><a href="map">Temporary Link to Map Page</a></h3>
                 <iframe src="map" style="border:none;" height="240" width="720"></iframe>
             </div>
-        </div>
+    </nav>
+
         <div class="add">
             <h3><a href="artistscreen/Megadeth">Explore artist: Megadeth</a></h3>
             <h3><a href="artistscreen/Death">Explore artist: Death</a></h3>
