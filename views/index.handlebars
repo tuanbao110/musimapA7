@@ -4,7 +4,7 @@
         <title>MusiMap Home</title>
         <meta name="viewport" content="width=device-width", initial-scale="1">
         <link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-theme.css" rel="stylesheet">
         <link href="./css/homeScreen.css" rel="stylesheet">
 
@@ -16,55 +16,55 @@
         <!-- Navbar -->
         <nav class="navbar">
             <div class="container">
+                <div><h2>MusiMap Home</h2></div>
                 <div class="navmenu">
 
-                <div class="searchbar" >
-					<div class="dropdown">
-						<button onclick="myFunction()" class="dropbtn" ><i class="fa fa-bars dropbtn"></i></button>
-						<div id="myDropdown" class="dropdown-content">
-							<a href="library">My Library</a>
-							<a href="social">Social</a>
-							<a href="settings">Settings</a>
-							<a href="help">Help</a>
-							<a href="index">Home</a>
-							<a href="searchpage">Search</a>
-						</div>
-						<form action="results" class="pull-right flex-outer" >
-							<input size="32" type="text" name="searchName" placeholder="Search Here " >
-							<button type="submit"><i class="fa fa-search"></i></button>
-						</form>
-					</div>   
+                    <div class="searchbar" >
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn" ><i class="fa fa-bars dropbtn"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="index">Home</a>
+                                <a href="library">My Library</a>
+                                <a href="help">Help</a>
+                            </div>
+                            <form action="results" class="pull-right flex-outer" >
+                                <input size="32" type="text" name="searchName" placeholder="Search Here " >
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>   
+                    </div>
+                    <div>
+                        <hr>
+                        <iframe src="map" style="border:solid;" height="600" width="95%"></iframe>
+                    </div>
                 </div>
-            <div>
-                <iframe src="map" style="border:solid;" height="600" width="95%"></iframe>
             </div>
-		</nav>
-		
+        </nav>
+
         <script src="js/jquery-1.11.0.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="js/bootstrap.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script>
-			function myFunction() {
-				document.getElementById("myDropdown").classList.toggle("show");
-			}
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
 // Close the dropdown if the user clicks outside of it
-			window.onclick = function(event) {
-				if (!event.target.matches('.dropbtn')) {
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
 
-					var dropdowns = document.getElementsByClassName("dropdown-content");
-					var i;
-					for (i = 0; i < dropdowns.length; i++) {
-						var openDropdown = dropdowns[i];
-						if (openDropdown.classList.contains('show')) {
-							openDropdown.classList.remove('show');
-						}
-					}
-				}
-			}
-		</script>
-
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+        </script>
     </body>
 </html>
