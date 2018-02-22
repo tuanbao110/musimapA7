@@ -17,8 +17,6 @@ exports.addArtist = function(req, res) {
 
     var inLibrary = 0;
 
-    console.log("data2 length: " + data2.artists.length);
-
     //check if already in library
     for(var i = 0; i < data2.artists.length; i++) {
         var obj = data2.artists[i];
