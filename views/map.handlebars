@@ -11,6 +11,7 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/map_buttons.js"></script>
     </head>
     <body>
         <div><h2>Placeholder Map</h2></div>
@@ -28,10 +29,8 @@ $.getJSON("data3.json", function (data) {
                 'label': 'data(label)',
                 'width': '60px',
                 'height': '60px',
-                'color': 'blue',
                 'background-fit': 'contain',
                 'background-clip': 'none',
-                'shape': 'hexagon',
                 'border-style': 'solid',
                 'border-width': '3px',
                 'border-color': 'black'
@@ -39,7 +38,7 @@ $.getJSON("data3.json", function (data) {
         }
         ],
         layout: {
-            name: 'circle'
+            name: 'cose'
         }
     });
 });
