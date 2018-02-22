@@ -30,12 +30,12 @@ exports.view = function(req, res){
         //if not in library, add to node set
         if(inLibrary == 0) {
             var newNode = {"data": {"id": obj1.name, "label": obj1.name, "genre:": obj1.genre,
-            "inLibrary": false}};
+            "inLibrary": 'false', "href":"artistscreen/"+obj1.name}};
             newData.nodes.push(newNode);
         }
         else {
             var newNode = {"data": {"id": obj1.name, "label": obj1.name, "genre:": obj1.genre,
-            "inLibrary": true}};
+            "inLibrary": 'true', "href":"artistscreen/"+obj1.name}};
             newData.nodes.push(newNode);
         }
     }

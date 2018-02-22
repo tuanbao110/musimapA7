@@ -1,8 +1,8 @@
 
 /*
- * GET home page.
+ * GET index
  */
 
 exports.view = function(req, res){
-  res.render('index');
+  res.render('index', {});
 };
